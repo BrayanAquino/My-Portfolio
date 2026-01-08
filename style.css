@@ -1,0 +1,131 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.section-link {
+  transition: all 0.3s ease;
+}
+
+.section-link:hover {
+  color: #10b981;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #10b981, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tech-badge {
+  transition: transform 0.2s ease;
+}
+
+.tech-badge:hover {
+  transform: translateY(-2px);
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+body.dark-mode {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+/* Light mode specific styles */
+body.light-mode .text-gray-300 {
+  color: #334155 !important;
+}
+
+body.light-mode .text-gray-400 {
+  color: #475569 !important;
+}
+
+body.light-mode .bg-gray-800 {
+  background-color: #f1f5f9 !important;
+  border-color: #cbd5e1 !important;
+}
+
+body.light-mode .bg-gray-800\/30 {
+  background-color: #f8fafc !important;
+}
+
+body.light-mode .bg-gray-800\/50 {
+  background-color: #f1f5f9 !important;
+}
+
+body.light-mode .border-gray-700 {
+  border-color: #cbd5e1 !important;
+}
+
+body.light-mode input,
+body.light-mode textarea {
+  color: #0f172a !important;
+}
+
+body.light-mode .experience-card:hover,
+body.light-mode .project-card:hover {
+  background-color: #e0e7ff !important;
+}
+
+body.light-mode .tech-badge {
+  background-color: #dbeafe !important;
+  color: #0369a1 !important;
+}
+
+body.light-mode .nav-dot {
+  background-color: #94a3b8;
+}
+
+body.light-mode .section-link {
+  color: #64748b;
+}
+
+body.light-mode .section-link.text-white {
+  color: #0f172a !important;
+}
+
+body.light-mode .light-mode-btn {
+  color: #0f172a !important;
+}
+
+body.dark-mode .light-mode-btn {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+body.dark-mode .light-mode-btn:hover {
+  background-color: #374151;
+}
+
+.nav-dot {
+  width: 40px;
+  height: 2px;
+  background-color: #64748b;
+  transition: all 0.3s ease;
+}
+
+.nav-dot.active {
+  width: 80px;
+  background-color: #10b981;
+}
+
+.experience-card {
+  border-left: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  border-left-color: #10b981;
+}
